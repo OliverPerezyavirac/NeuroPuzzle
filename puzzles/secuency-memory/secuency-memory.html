@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Secuencial de Memoria</title>
+    <link rel="stylesheet" href="./secuency-memory.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Puzzle Secuencial de Memoria</h1>
+        
+        <div class="level-selector">
+            <label for="level">Nivel de dificultad:</label>
+            <select id="level">
+                <option value="1">Nivel 1 - Fácil</option>
+                <option value="2">Nivel 2 - Medio</option>
+                <option value="3">Nivel 3 - Difícil</option>
+                <option value="4">Nivel 4 - Experto</option>
+            </select>
+        </div>
+        
+        <div class="sequence-info" id="sequence-info">Secuencia: 0 elementos</div>
+        
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        
+        <div class="puzzle-display">
+            <div class="symbol" id="symbol"></div>
+        </div>
+        
+        <div class="status-indicator" id="status-indicator"></div>
+        
+        <div class="answer-container">
+            <input type="number" id="answer" placeholder="Respuesta">
+            <button id="check" disabled>Comprobar</button>
+        </div>
+        
+        <div class="result" id="result"></div>
+        
+        <div class="score" id="score">Puntuación: 0</div>
+        
+        <div class="controls">
+            <button id="start">Iniciar Secuencia</button>
+        </div>
+    </div>
+
+    <script src="./secuency-memory.js"></script>
+
+</body>
+</html>

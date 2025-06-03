@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Math - Juego de Memoria Matemática</title>
+    <link rel="stylesheet" href="./memory-math.css">
+</head>
+<body>
+    <div class="container" id="game-container">
+        <h1>Memory Math</h1>
+        <div class="subtitle">Encuentra las parejas de operaciones y resultados</div>
+        
+        <div class="level-selector">
+            <label for="level">Nivel:</label>
+            <select id="level">
+                <option value="1">Nivel 1 - Principiante</option>
+                <option value="2">Nivel 2 - Fácil</option>
+                <option value="3">Nivel 3 - Intermedio</option>
+                <option value="4">Nivel 4 - Difícil</option>
+                <option value="5">Nivel 5 - Experto</option>
+                <option value="6">Nivel 6 - NIKOLA TESLA</option>
+            </select>
+        </div>
+        
+        <div class="level-description" id="level-description">
+            Nivel para principiantes. Encuentra parejas de números iguales.
+        </div>
+        <h3>Objetivo</h3>
+        <p>El objetivo es encontrar todas las parejas de cartas coincidentes en el tablero. Lo interesante es que a medida que avanzas de nivel, el concepto de "pareja" cambia: pasarás de buscar números idénticos a emparejar operaciones matemáticas con sus resultados.</p>
+        
+        <div class="game-stats">
+            <div class="stat">Movimientos: <span class="value" id="moves">0</span></div>
+            <div class="stat">Parejas: <span class="value" id="pairs">0</span>/<span id="total-pairs">8</span></div>
+            <div class="stat">Tiempo: <span class="value" id="timer">00:00</span></div>
+        </div>
+        
+        <div class="game-board" id="game-board"></div>
+        
+        <div class="result" id="result"></div>
+        
+        <button id="start-game">Iniciar Juego</button>
+        <button id="restart" disabled>Reiniciar</button>
+    </div>
+
+    <script src="./memory-math.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sopa de Letras</title>
+    <link rel="stylesheet" href="word-search.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Sopa de Letras</h1>
+            <div class="controls">
+                <div class="control-group">
+                    <label>Dificultad:</label>
+                    <select id="difficulty">
+                        <option value="easy">Fácil</option>
+                        <option value="medium">Medio</option>
+                        <option value="hard">Difícil</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label>
+                        <input type="checkbox" id="learn-english"> Aprender palabras en inglés
+                    </label>
+                </div>
+                <button id="new-game">Nueva Partida</button>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="word-grid" id="word-grid">
+                <!-- La cuadrícula se generará dinámicamente -->
+            </div>
+
+            <div class="word-list">
+                <h3>Palabras a encontrar:</h3>
+                <ul id="words-to-find"></ul>
+            </div>
+        </div>
+
+        <div id="translations" class="translations hidden">
+            <h3>Palabras encontradas:</h3>
+            <div id="found-words-list"></div>
+        </div>
+
+        <div id="victory-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2>¡Felicitaciones!</h2>
+                <p>Has encontrado todas las palabras</p>
+                <button id="next-round">Siguiente Ronda</button>
+            </div>
+        </div>
+    </div>
+    <script src="word-search.js"></script>
+</body>
+</html> 

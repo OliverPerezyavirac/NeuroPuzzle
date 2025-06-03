@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #984C00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.level-selector {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.puzzle-display {
+    height: 120px;
+    width: 120px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.symbol {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.symbol.visible {
+    opacity: 1;
+}
+
+.status-indicator {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+}
+
+.status-dot.active {
+    background-color: #4CAF50;
+}
+
+.answer-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    width: 120px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.result {
+    font-size: 18px;
+    margin-top: 20px;
+    min-height: 24px;
+}
+
+.correct {
+    color: #4CAF50;
+}
+
+.incorrect {
+    color: #f44336;
+}
+
+.score {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.sequence-info {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#check:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

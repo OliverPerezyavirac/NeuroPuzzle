@@ -1,0 +1,514 @@
+{
+    "categories": [
+        {
+            "name": "Animales",
+            "words": [
+                {"en": "DOG", "es": "PERRO"},
+                {"en": "CAT", "es": "GATO"},
+                {"en": "BIRD", "es": "PAJARO"},
+                {"en": "FISH", "es": "PEZ"},
+                {"en": "LION", "es": "LEON"},
+                {"en": "TIGER", "es": "TIGRE"},
+                {"en": "BEAR", "es": "OSO"},
+                {"en": "WOLF", "es": "LOBO"},
+                {"en": "HORSE", "es": "CABALLO"},
+                {"en": "COW", "es": "VACA"},
+                {"en": "PIG", "es": "CERDO"},
+                {"en": "SHEEP", "es": "OVEJA"},
+                {"en": "GOAT", "es": "CABRA"},
+                {"en": "DUCK", "es": "PATO"},
+                {"en": "MOUSE", "es": "RATON"},
+                {"en": "RAT", "es": "RATA"},
+                {"en": "DEER", "es": "CIERVO"},
+                {"en": "FOX", "es": "ZORRO"},
+                {"en": "EAGLE", "es": "AGUILA"},
+                {"en": "OWL", "es": "BUHO"}
+            ]
+        },
+        {
+            "name": "Colores",
+            "words": [
+                {"en": "RED", "es": "ROJO"},
+                {"en": "BLUE", "es": "AZUL"},
+                {"en": "GREEN", "es": "VERDE"},
+                {"en": "YELLOW", "es": "AMARILLO"},
+                {"en": "BLACK", "es": "NEGRO"},
+                {"en": "WHITE", "es": "BLANCO"},
+                {"en": "PURPLE", "es": "MORADO"},
+                {"en": "BROWN", "es": "MARRON"},
+                {"en": "GRAY", "es": "GRIS"},
+                {"en": "PINK", "es": "ROSA"},
+                {"en": "ORANGE", "es": "NARANJA"},
+                {"en": "GOLD", "es": "DORADO"},
+                {"en": "SILVER", "es": "PLATEADO"},
+                {"en": "NAVY", "es": "MARINO"},
+                {"en": "VIOLET", "es": "VIOLETA"}
+            ]
+        },
+        {
+            "name": "Comida",
+            "words": [
+                {"en": "BREAD", "es": "PAN"},
+                {"en": "MILK", "es": "LECHE"},
+                {"en": "CHEESE", "es": "QUESO"},
+                {"en": "MEAT", "es": "CARNE"},
+                {"en": "FISH", "es": "PESCADO"},
+                {"en": "RICE", "es": "ARROZ"},
+                {"en": "BEANS", "es": "FRIJOLES"},
+                {"en": "SOUP", "es": "SOPA"},
+                {"en": "SALAD", "es": "ENSALADA"},
+                {"en": "PIZZA", "es": "PIZZA"},
+                {"en": "PASTA", "es": "PASTA"},
+                {"en": "CAKE", "es": "PASTEL"},
+                {"en": "CANDY", "es": "DULCE"},
+                {"en": "SUGAR", "es": "AZUCAR"},
+                {"en": "SALT", "es": "SAL"},
+                {"en": "WATER", "es": "AGUA"},
+                {"en": "JUICE", "es": "JUGO"},
+                {"en": "COFFEE", "es": "CAFE"},
+                {"en": "TEA", "es": "TE"},
+                {"en": "WINE", "es": "VINO"}
+            ]
+        },
+        {
+            "name": "Ropa",
+            "words": [
+                {"en": "SHIRT", "es": "CAMISA"},
+                {"en": "PANTS", "es": "PANTALON"},
+                {"en": "DRESS", "es": "VESTIDO"},
+                {"en": "SHOES", "es": "ZAPATOS"},
+                {"en": "SOCKS", "es": "CALCETINES"},
+                {"en": "HAT", "es": "SOMBRERO"},
+                {"en": "COAT", "es": "ABRIGO"},
+                {"en": "SCARF", "es": "BUFANDA"},
+                {"en": "GLOVES", "es": "GUANTES"},
+                {"en": "BELT", "es": "CINTURON"},
+                {"en": "JACKET", "es": "CHAQUETA"},
+                {"en": "SKIRT", "es": "FALDA"},
+                {"en": "SUIT", "es": "TRAJE"},
+                {"en": "TIE", "es": "CORBATA"},
+                {"en": "BOOTS", "es": "BOTAS"}
+            ]
+        },
+        {
+            "name": "Profesiones",
+            "words": [
+                {"en": "DOCTOR", "es": "DOCTOR"},
+                {"en": "TEACHER", "es": "PROFESOR"},
+                {"en": "LAWYER", "es": "ABOGADO"},
+                {"en": "NURSE", "es": "ENFERMERA"},
+                {"en": "CHEF", "es": "COCINERO"},
+                {"en": "ARTIST", "es": "ARTISTA"},
+                {"en": "WRITER", "es": "ESCRITOR"},
+                {"en": "DRIVER", "es": "CONDUCTOR"},
+                {"en": "PILOT", "es": "PILOTO"},
+                {"en": "POLICE", "es": "POLICIA"},
+                {"en": "DENTIST", "es": "DENTISTA"},
+                {"en": "ACTOR", "es": "ACTOR"},
+                {"en": "SINGER", "es": "CANTANTE"},
+                {"en": "FARMER", "es": "GRANJERO"},
+                {"en": "BANKER", "es": "BANQUERO"}
+            ]
+        },
+        {
+            "name": "Deportes",
+            "words": [
+                {"en": "SOCCER", "es": "FUTBOL"},
+                {"en": "TENNIS", "es": "TENIS"},
+                {"en": "GOLF", "es": "GOLF"},
+                {"en": "BOXING", "es": "BOXEO"},
+                {"en": "RUNNING", "es": "CORRER"},
+                {"en": "SWIMMING", "es": "NATACION"},
+                {"en": "CYCLING", "es": "CICLISMO"},
+                {"en": "SKIING", "es": "ESQUI"},
+                {"en": "HOCKEY", "es": "HOCKEY"},
+                {"en": "RUGBY", "es": "RUGBY"},
+                {"en": "BASEBALL", "es": "BEISBOL"},
+                {"en": "CLIMBING", "es": "ESCALADA"},
+                {"en": "SKATING", "es": "PATINAJE"},
+                {"en": "SURFING", "es": "SURF"},
+                {"en": "DIVING", "es": "BUCEO"}
+            ]
+        },
+        {
+            "name": "Casa",
+            "words": [
+                {"en": "DOOR", "es": "PUERTA"},
+                {"en": "WINDOW", "es": "VENTANA"},
+                {"en": "WALL", "es": "PARED"},
+                {"en": "FLOOR", "es": "PISO"},
+                {"en": "ROOF", "es": "TECHO"},
+                {"en": "ROOM", "es": "CUARTO"},
+                {"en": "KITCHEN", "es": "COCINA"},
+                {"en": "BATHROOM", "es": "BANO"},
+                {"en": "BEDROOM", "es": "DORMITORIO"},
+                {"en": "GARDEN", "es": "JARDIN"},
+                {"en": "GARAGE", "es": "GARAJE"},
+                {"en": "STAIRS", "es": "ESCALERAS"},
+                {"en": "CHAIR", "es": "SILLA"},
+                {"en": "TABLE", "es": "MESA"},
+                {"en": "BED", "es": "CAMA"}
+            ]
+        },
+        {
+            "name": "Naturaleza",
+            "words": [
+                {"en": "TREE", "es": "ARBOL"},
+                {"en": "FLOWER", "es": "FLOR"},
+                {"en": "GRASS", "es": "CESPED"},
+                {"en": "RIVER", "es": "RIO"},
+                {"en": "LAKE", "es": "LAGO"},
+                {"en": "OCEAN", "es": "OCEANO"},
+                {"en": "MOUNTAIN", "es": "MONTANA"},
+                {"en": "FOREST", "es": "BOSQUE"},
+                {"en": "BEACH", "es": "PLAYA"},
+                {"en": "DESERT", "es": "DESIERTO"},
+                {"en": "ISLAND", "es": "ISLA"},
+                {"en": "CLOUD", "es": "NUBE"},
+                {"en": "RAIN", "es": "LLUVIA"},
+                {"en": "SNOW", "es": "NIEVE"},
+                {"en": "SUN", "es": "SOL"}
+            ]
+        },
+        {
+            "name": "Tecnología",
+            "words": [
+                {"en": "COMPUTER", "es": "COMPUTADORA"},
+                {"en": "PHONE", "es": "TELEFONO"},
+                {"en": "TABLET", "es": "TABLETA"},
+                {"en": "CAMERA", "es": "CAMARA"},
+                {"en": "ROBOT", "es": "ROBOT"},
+                {"en": "INTERNET", "es": "INTERNET"},
+                {"en": "WEBSITE", "es": "SITIO"},
+                {"en": "EMAIL", "es": "CORREO"},
+                {"en": "PRINTER", "es": "IMPRESORA"},
+                {"en": "MOUSE", "es": "RATON"},
+                {"en": "KEYBOARD", "es": "TECLADO"},
+                {"en": "SCREEN", "es": "PANTALLA"},
+                {"en": "WIFI", "es": "WIFI"},
+                {"en": "DATA", "es": "DATOS"},
+                {"en": "CODE", "es": "CODIGO"}
+            ]
+        },
+        {
+            "name": "Tiempo",
+            "words": [
+                {"en": "YEAR", "es": "ANO"},
+                {"en": "MONTH", "es": "MES"},
+                {"en": "WEEK", "es": "SEMANA"},
+                {"en": "DAY", "es": "DIA"},
+                {"en": "HOUR", "es": "HORA"},
+                {"en": "MINUTE", "es": "MINUTO"},
+                {"en": "SECOND", "es": "SEGUNDO"},
+                {"en": "TODAY", "es": "HOY"},
+                {"en": "TOMORROW", "es": "MANANA"},
+                {"en": "MORNING", "es": "MANANA"},
+                {"en": "NIGHT", "es": "NOCHE"},
+                {"en": "TIME", "es": "TIEMPO"},
+                {"en": "CLOCK", "es": "RELOJ"},
+                {"en": "WATCH", "es": "RELOJ"},
+                {"en": "DATE", "es": "FECHA"}
+            ]
+        },
+        {
+            "name": "Emociones",
+            "words": [
+                {"en": "HAPPY", "es": "FELIZ"},
+                {"en": "SAD", "es": "TRISTE"},
+                {"en": "ANGRY", "es": "ENOJADO"},
+                {"en": "SCARED", "es": "ASUSTADO"},
+                {"en": "TIRED", "es": "CANSADO"},
+                {"en": "EXCITED", "es": "EMOCIONADO"},
+                {"en": "WORRIED", "es": "PREOCUPADO"},
+                {"en": "CALM", "es": "TRANQUILO"},
+                {"en": "NERVOUS", "es": "NERVIOSO"},
+                {"en": "PROUD", "es": "ORGULLOSO"},
+                {"en": "LOVE", "es": "AMOR"},
+                {"en": "HATE", "es": "ODIO"},
+                {"en": "FEAR", "es": "MIEDO"},
+                {"en": "JOY", "es": "ALEGRIA"},
+                {"en": "PEACE", "es": "PAZ"}
+            ]
+        },
+        {
+            "name": "Números",
+            "words": [
+                {"en": "ONE", "es": "UNO"},
+                {"en": "TWO", "es": "DOS"},
+                {"en": "THREE", "es": "TRES"},
+                {"en": "FOUR", "es": "CUATRO"},
+                {"en": "FIVE", "es": "CINCO"},
+                {"en": "SIX", "es": "SEIS"},
+                {"en": "SEVEN", "es": "SIETE"},
+                {"en": "EIGHT", "es": "OCHO"},
+                {"en": "NINE", "es": "NUEVE"},
+                {"en": "TEN", "es": "DIEZ"},
+                {"en": "HUNDRED", "es": "CIEN"},
+                {"en": "THOUSAND", "es": "MIL"},
+                {"en": "MILLION", "es": "MILLON"},
+                {"en": "FIRST", "es": "PRIMERO"},
+                {"en": "LAST", "es": "ULTIMO"}
+            ]
+        },
+        {
+            "name": "Transporte",
+            "words": [
+                {"en": "CAR", "es": "COCHE"},
+                {"en": "BUS", "es": "AUTOBUS"},
+                {"en": "TRAIN", "es": "TREN"},
+                {"en": "PLANE", "es": "AVION"},
+                {"en": "SHIP", "es": "BARCO"},
+                {"en": "BICYCLE", "es": "BICICLETA"},
+                {"en": "TRUCK", "es": "CAMION"},
+                {"en": "TAXI", "es": "TAXI"},
+                {"en": "METRO", "es": "METRO"},
+                {"en": "BOAT", "es": "BOTE"},
+                {"en": "MOTORCYCLE", "es": "MOTO"},
+                {"en": "HELICOPTER", "es": "HELICOPTERO"},
+                {"en": "ROCKET", "es": "COHETE"},
+                {"en": "TRAM", "es": "TRANVIA"},
+                {"en": "FERRY", "es": "FERRY"}
+            ]
+        },
+        {
+            "name": "Escuela",
+            "words": [
+                {"en": "BOOK", "es": "LIBRO"},
+                {"en": "PEN", "es": "BOLIGRAFO"},
+                {"en": "PENCIL", "es": "LAPIZ"},
+                {"en": "PAPER", "es": "PAPEL"},
+                {"en": "DESK", "es": "ESCRITORIO"},
+                {"en": "CLASS", "es": "CLASE"},
+                {"en": "STUDENT", "es": "ESTUDIANTE"},
+                {"en": "EXAM", "es": "EXAMEN"},
+                {"en": "HOMEWORK", "es": "TAREA"},
+                {"en": "SCHOOL", "es": "ESCUELA"},
+                {"en": "LIBRARY", "es": "BIBLIOTECA"},
+                {"en": "NOTEBOOK", "es": "CUADERNO"},
+                {"en": "RULER", "es": "REGLA"},
+                {"en": "ERASER", "es": "BORRADOR"},
+                {"en": "BACKPACK", "es": "MOCHILA"}
+            ]
+        },
+        {
+            "name": "Clima",
+            "words": [
+                {"en": "HOT", "es": "CALIENTE"},
+                {"en": "COLD", "es": "FRIO"},
+                {"en": "WARM", "es": "TIBIO"},
+                {"en": "COOL", "es": "FRESCO"},
+                {"en": "SUNNY", "es": "SOLEADO"},
+                {"en": "RAINY", "es": "LLUVIOSO"},
+                {"en": "WINDY", "es": "VENTOSO"},
+                {"en": "CLOUDY", "es": "NUBLADO"},
+                {"en": "STORM", "es": "TORMENTA"},
+                {"en": "THUNDER", "es": "TRUENO"},
+                {"en": "LIGHTNING", "es": "RELAMPAGO"},
+                {"en": "HUMID", "es": "HUMEDO"},
+                {"en": "DRY", "es": "SECO"},
+                {"en": "FOGGY", "es": "NEBLINOSO"},
+                {"en": "FREEZING", "es": "HELADO"}
+            ]
+        },
+        {
+            "name": "Instrumentos",
+            "words": [
+                {"en": "GUITAR", "es": "GUITARRA"},
+                {"en": "PIANO", "es": "PIANO"},
+                {"en": "DRUM", "es": "TAMBOR"},
+                {"en": "VIOLIN", "es": "VIOLIN"},
+                {"en": "FLUTE", "es": "FLAUTA"},
+                {"en": "TRUMPET", "es": "TROMPETA"},
+                {"en": "HARP", "es": "ARPA"},
+                {"en": "BASS", "es": "BAJO"},
+                {"en": "CLARINET", "es": "CLARINETE"},
+                {"en": "SAXOPHONE", "es": "SAXOFON"},
+                {"en": "TROMBONE", "es": "TROMBON"},
+                {"en": "CELLO", "es": "CHELO"},
+                {"en": "ORGAN", "es": "ORGANO"},
+                {"en": "BANJO", "es": "BANJO"},
+                {"en": "UKULELE", "es": "UKULELE"}
+            ]
+        },
+        {
+            "name": "Países",
+            "words": [
+                {"en": "SPAIN", "es": "ESPANA"},
+                {"en": "FRANCE", "es": "FRANCIA"},
+                {"en": "ITALY", "es": "ITALIA"},
+                {"en": "GERMANY", "es": "ALEMANIA"},
+                {"en": "CHINA", "es": "CHINA"},
+                {"en": "JAPAN", "es": "JAPON"},
+                {"en": "BRAZIL", "es": "BRASIL"},
+                {"en": "MEXICO", "es": "MEXICO"},
+                {"en": "CANADA", "es": "CANADA"},
+                {"en": "RUSSIA", "es": "RUSIA"},
+                {"en": "INDIA", "es": "INDIA"},
+                {"en": "EGYPT", "es": "EGIPTO"},
+                {"en": "GREECE", "es": "GRECIA"},
+                {"en": "PERU", "es": "PERU"},
+                {"en": "KOREA", "es": "COREA"}
+            ]
+        },
+        {
+            "name": "Herramientas",
+            "words": [
+                {"en": "HAMMER", "es": "MARTILLO"},
+                {"en": "SAW", "es": "SIERRA"},
+                {"en": "DRILL", "es": "TALADRO"},
+                {"en": "WRENCH", "es": "LLAVE"},
+                {"en": "PLIERS", "es": "ALICATE"},
+                {"en": "NAIL", "es": "CLAVO"},
+                {"en": "SCREW", "es": "TORNILLO"},
+                {"en": "AXE", "es": "HACHA"},
+                {"en": "SHOVEL", "es": "PALA"},
+                {"en": "BRUSH", "es": "BROCHA"},
+                {"en": "LADDER", "es": "ESCALERA"},
+                {"en": "TAPE", "es": "CINTA"},
+                {"en": "SCISSORS", "es": "TIJERAS"},
+                {"en": "LEVEL", "es": "NIVEL"},
+                {"en": "CHISEL", "es": "CINCEL"}
+            ]
+        },
+        {
+            "name": "Medicina",
+            "words": [
+                {"en": "HOSPITAL", "es": "HOSPITAL"},
+                {"en": "MEDICINE", "es": "MEDICINA"},
+                {"en": "BANDAGE", "es": "VENDA"},
+                {"en": "PILL", "es": "PASTILLA"},
+                {"en": "SURGERY", "es": "CIRUGIA"},
+                {"en": "VACCINE", "es": "VACUNA"},
+                {"en": "FEVER", "es": "FIEBRE"},
+                {"en": "PAIN", "es": "DOLOR"},
+                {"en": "BLOOD", "es": "SANGRE"},
+                {"en": "HEART", "es": "CORAZON"},
+                {"en": "BRAIN", "es": "CEREBRO"},
+                {"en": "LUNG", "es": "PULMON"},
+                {"en": "BONE", "es": "HUESO"},
+                {"en": "MUSCLE", "es": "MUSCULO"},
+                {"en": "TOOTH", "es": "DIENTE"}
+            ]
+        },
+        {
+            "name": "Deportes_Acuáticos",
+            "words": [
+                {"en": "SWIMMING", "es": "NATACION"},
+                {"en": "DIVING", "es": "BUCEO"},
+                {"en": "SURFING", "es": "SURF"},
+                {"en": "SAILING", "es": "NAVEGAR"},
+                {"en": "ROWING", "es": "REMAR"},
+                {"en": "KAYAKING", "es": "KAYAK"},
+                {"en": "FISHING", "es": "PESCAR"},
+                {"en": "SNORKEL", "es": "ESNORQUEL"},
+                {"en": "RAFTING", "es": "RAFTING"},
+                {"en": "WATERSKI", "es": "ESQUI"},
+                {"en": "POLO", "es": "POLO"},
+                {"en": "TRIATHLON", "es": "TRIATLON"},
+                {"en": "WINDSURF", "es": "WINDSURF"},
+                {"en": "CANOEING", "es": "CANOA"},
+                {"en": "JETSKI", "es": "MOTO"}
+            ]
+        },
+        {
+            "name": "Insectos",
+            "words": [
+                {"en": "ANT", "es": "HORMIGA"},
+                {"en": "BEE", "es": "ABEJA"},
+                {"en": "WASP", "es": "AVISPA"},
+                {"en": "SPIDER", "es": "ARANA"},
+                {"en": "BEETLE", "es": "ESCARABAJO"},
+                {"en": "BUTTERFLY", "es": "MARIPOSA"},
+                {"en": "MOTH", "es": "POLILLA"},
+                {"en": "MOSQUITO", "es": "MOSQUITO"},
+                {"en": "FLY", "es": "MOSCA"},
+                {"en": "CRICKET", "es": "GRILLO"},
+                {"en": "LADYBUG", "es": "MARIQUITA"},
+                {"en": "DRAGONFLY", "es": "LIBELULA"},
+                {"en": "MANTIS", "es": "MANTIS"},
+                {"en": "ROACH", "es": "CUCARACHA"},
+                {"en": "WORM", "es": "GUSANO"}
+            ]
+        },
+        {
+            "name": "Cocina",
+            "words": [
+                {"en": "KNIFE", "es": "CUCHILLO"},
+                {"en": "FORK", "es": "TENEDOR"},
+                {"en": "SPOON", "es": "CUCHARA"},
+                {"en": "PLATE", "es": "PLATO"},
+                {"en": "BOWL", "es": "TAZON"},
+                {"en": "POT", "es": "OLLA"},
+                {"en": "PAN", "es": "SARTEN"},
+                {"en": "OVEN", "es": "HORNO"},
+                {"en": "STOVE", "es": "ESTUFA"},
+                {"en": "BLENDER", "es": "LICUADORA"},
+                {"en": "GRATER", "es": "RALLADOR"},
+                {"en": "MIXER", "es": "BATIDORA"},
+                {"en": "TOASTER", "es": "TOSTADOR"},
+                {"en": "KETTLE", "es": "TETERA"},
+                {"en": "MICROWAVE", "es": "MICROONDAS"}
+            ]
+        },
+        {
+            "name": "Planetas",
+            "words": [
+                {"en": "MERCURY", "es": "MERCURIO"},
+                {"en": "VENUS", "es": "VENUS"},
+                {"en": "EARTH", "es": "TIERRA"},
+                {"en": "MARS", "es": "MARTE"},
+                {"en": "JUPITER", "es": "JUPITER"},
+                {"en": "SATURN", "es": "SATURNO"},
+                {"en": "URANUS", "es": "URANO"},
+                {"en": "NEPTUNE", "es": "NEPTUNO"},
+                {"en": "PLUTO", "es": "PLUTON"},
+                {"en": "MOON", "es": "LUNA"},
+                {"en": "STAR", "es": "ESTRELLA"},
+                {"en": "COMET", "es": "COMETA"},
+                {"en": "GALAXY", "es": "GALAXIA"},
+                {"en": "ASTEROID", "es": "ASTEROIDE"},
+                {"en": "COSMOS", "es": "COSMOS"}
+            ]
+        },
+        {
+            "name": "Materiales",
+            "words": [
+                {"en": "WOOD", "es": "MADERA"},
+                {"en": "METAL", "es": "METAL"},
+                {"en": "GLASS", "es": "VIDRIO"},
+                {"en": "PLASTIC", "es": "PLASTICO"},
+                {"en": "RUBBER", "es": "GOMA"},
+                {"en": "STEEL", "es": "ACERO"},
+                {"en": "IRON", "es": "HIERRO"},
+                {"en": "GOLD", "es": "ORO"},
+                {"en": "SILVER", "es": "PLATA"},
+                {"en": "COPPER", "es": "COBRE"},
+                {"en": "BRONZE", "es": "BRONCE"},
+                {"en": "LEATHER", "es": "CUERO"},
+                {"en": "COTTON", "es": "ALGODON"},
+                {"en": "WOOL", "es": "LANA"},
+                {"en": "SILK", "es": "SEDA"}
+            ]
+        },
+        {
+            "name": "Verbos_Comunes",
+            "words": [
+                {"en": "WALK", "es": "CAMINAR"},
+                {"en": "RUN", "es": "CORRER"},
+                {"en": "JUMP", "es": "SALTAR"},
+                {"en": "SWIM", "es": "NADAR"},
+                {"en": "DANCE", "es": "BAILAR"},
+                {"en": "SING", "es": "CANTAR"},
+                {"en": "SLEEP", "es": "DORMIR"},
+                {"en": "EAT", "es": "COMER"},
+                {"en": "DRINK", "es": "BEBER"},
+                {"en": "WRITE", "es": "ESCRIBIR"},
+                {"en": "READ", "es": "LEER"},
+                {"en": "SPEAK", "es": "HABLAR"},
+                {"en": "LISTEN", "es": "ESCUCHAR"},
+                {"en": "WATCH", "es": "MIRAR"},
+                {"en": "THINK", "es": "PENSAR"}
+            ]
+        }
+    ]
+} 

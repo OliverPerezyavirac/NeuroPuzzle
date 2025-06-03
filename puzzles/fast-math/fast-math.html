@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo rápido</title>
+    <link rel="stylesheet" href="./fast-math.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculo rápido</h1>
+        
+        <div class="level-selector">
+            <label for="level">Nivel de dificultad:</label>
+            <select id="level">
+                <option value="1">Nivel 1 - Fácil</option>
+                <option value="2">Nivel 2 - Medio</option>
+                <option value="3">Nivel 3 - Difícil</option>
+                <option value="4">Nivel 4 - Experto</option>
+            </select>
+        </div>
+        
+        <div class="timer" id="timer">Tiempo: 30s</div>
+        
+        <div class="puzzle-container">
+            <div class="puzzle-sequence" id="puzzle-sequence"></div>
+        </div>
+        
+        <div class="answer-container">
+            <input type="number" id="answer" placeholder="Respuesta">
+            <button id="check">Comprobar</button>
+            <button id="next">Siguiente</button>
+        </div>
+        
+        <div class="result" id="result"></div>
+        
+        <div class="score" id="score">Puntuación: 0</div>
+    </div>
+
+    <script src="./fast-math.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle de Memoria: Secuencia</title>
+    <link rel="stylesheet" href="./fast.css">
+</head>
+<body>
+    <h1 class="white-text-fast">Puzzle de Memoria: Secuencia</h1>
+    
+    <div class="controls">
+        <label class="white-text-fast" for="difficulty">Dificultad:</label>
+        <select id="difficulty">
+            <option value="facil">Fácil (Solo Flechas)</option>
+            <option value="medio" selected>Medio (Flechas Más Largas)</option>
+            <option value="dificil">Difícil (Flechas y Números)</option>
+        </select>
+        <button id="start-button">Iniciar Juego</button>
+    </div>
+    
+    <div class="game-container">
+        <div class="status-area" id="status">Presiona "Iniciar Juego" para comenzar</div>
+        
+        <div class="display-area" id="display-area">
+            <div class="sequence-item" id="sequence-display"></div>
+        </div>
+        
+        <div class="input-area">
+            <div class="input-instruction" id="input-instruction">Recuerda la secuencia y repítela usando las teclas de flecha</div>
+            <div class="input-display" id="input-display"></div>
+        </div>
+        
+        <div class="score-display">Puntuación: <span id="score">0</span></div>
+        <div class="level-display">Nivel: <span id="level">1</span></div>
+    </div>
+    
+    <div class="help-text">
+        <p>Usa las teclas de flecha en tu teclado para repetir la secuencia mostrada.</p>
+        <p>En nivel difícil, usa teclas numéricas 1-9 para los números y flechas para las direcciones.</p>
+    </div>
+    
+    <script src="./fast.js"></script>
+    
+</body>
+</html>
