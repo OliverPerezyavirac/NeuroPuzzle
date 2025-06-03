@@ -1,7 +1,12 @@
 {
-  "manifest_version": 3,
   "name": "__MSG_name__",
   "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "neuro-puzzle@tu-extension.dev"
+    }
+  },
+  "manifest_version": 3,
   "default_locale": "es",
   "description": "__MSG_description__",
   "action": {

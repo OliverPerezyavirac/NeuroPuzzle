@@ -252,7 +252,7 @@ class WordSearch {
 
     renderGrid() {
         const difficulty = this.getCurrentDifficulty();
-        this.gridElement.innerHTML = '';
+        this.gridElement.textContent = '';
         for (let i = 0; i < difficulty.gridSize; i++) {
             for (let j = 0; j < difficulty.gridSize; j++) {
                 const cell = document.createElement('div');
@@ -266,7 +266,7 @@ class WordSearch {
     }
 
     updateWordList() {
-        this.wordsToFindElement.innerHTML = '';
+        this.wordsToFindElement.textContent  = '';
         this.words.forEach(word => {
             const li = document.createElement('li');
             li.textContent = this.currentLanguage === 'en' ? word.en : word.es;
@@ -284,14 +284,14 @@ class WordSearch {
         }
 
         this.translationsElement.classList.remove('hidden');
-        this.foundWordsListElement.innerHTML = '';
+        this.foundWordsListElement.textContent  = '';
         
         Array.from(this.foundWords).forEach(wordEn => {
             const word = this.words.find(w => w.en === wordEn);
             if (word) {
                 const div = document.createElement('div');
                 div.className = 'translation-item';
-                div.innerHTML = `
+                div.textContent  = `
                     <span>${word.en}</span>
                     <span>→</span>
                     <span>${word.es}</span>

@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             const config = levelConfig[level];
             
-            gameBoard.innerHTML = '';
+            gameBoard.textContent = '';
             
             const [rows, cols] = config.grid;
             gameBoard.style.gridTemplateColumns = `repeat(${cols}, var(--card-size))`;
@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 const cardBack = document.createElement('div');
                 cardBack.className = 'card-face card-back';
-                cardBack.innerHTML = '?';
+                cardBack.textContent = '?';
                 
                 const cardFront = document.createElement('div');
                 cardFront.className = 'card-face card-front';

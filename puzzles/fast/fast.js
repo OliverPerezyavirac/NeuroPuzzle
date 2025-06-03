@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function startInputPhase() {
         waitingForInput = true;
         playerInput = [];
-        inputDisplay.innerHTML = '';
+        inputDisplay.textContent = '';
         statusDisplay.textContent = '¡Tu turno! Repite la secuencia';
         inputInstruction.textContent = 'Usa las teclas para repetir la secuencia mostrada';
     }
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             setTimeout(() => {
                 statusDisplay.textContent = 'La secuencia correcta era:';
-                inputDisplay.innerHTML = '';
+                inputDisplay.textContent  = '';
                 
                 for (const item of sequence) {
                     const sequenceItem = document.createElement('div');

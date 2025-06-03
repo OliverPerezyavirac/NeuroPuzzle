@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displayPuzzle() {
-        puzzleSequence.innerHTML = '';
+        puzzleSequence.textContent = '';
         
         currentPuzzle.forEach(item => {
             const puzzleItem = document.createElement('div');

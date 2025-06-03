@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function updateStatusIndicator(length) {
-        statusIndicator.innerHTML = '';
+        statusIndicator.textContent = '';
         for (let i = 0; i < length; i++) {
             const dot = document.createElement('div');
             dot.className = 'status-dot';
